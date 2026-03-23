@@ -1,0 +1,14 @@
+3     0.000: strsetdir: dir=
+3     0.000: strsetproxy: addr=
+3     0.000: strsvrstart:
+3     0.000: strinitcom:
+3     0.000: strsetopt: opt=10000 10000 2000 32768 30 65535 -643308864 43690
+3     0.000: stropen: type=7 mode=3 path=amunschy:amunschy@rtn.dot.ny.gov:8080/net_msm_vrs
+3     0.000: openntrip: path=amunschy:amunschy@rtn.dot.ny.gov:8080/net_msm_vrs type=1
+3     0.000: opentcpcli: path=rtn.dot.ny.gov:8080
+3     0.000: stropen: type=1 mode=2 path=ttyUSB1:115200
+3     0.000: openserial: path=ttyUSB1:115200 mode=2
+1     0.000: openserial: device open error (2) dev=/dev/ttyUSB1
+3     0.000: strclose: type=7 mode=3
+3     0.000: closentrip: state=0
+3     0.000: closetcpcli: sock=0
