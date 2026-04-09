@@ -96,7 +96,7 @@ def amplitude_to_swing(amplitude):
 # Group B: Legs 2, 4, 6 (Knee Pins: 2, 6, 10 | Hip Pins: 3, 7, 11)
 # ============================================================================
 
-def forward(amplitude):
+def backward(amplitude):
     swing = amplitude_to_swing(amplitude)
     fwd = HIP_NEUTRAL - swing
 
@@ -154,7 +154,7 @@ def forward(amplitude):
     time.sleep(SETTLE_DELAY)
 
 
-def backward(amplitude):
+def forward(amplitude):
     swing = amplitude_to_swing(amplitude)
     back = HIP_NEUTRAL + swing
 
